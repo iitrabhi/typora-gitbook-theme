@@ -54,8 +54,8 @@
   /*****************************/
 
   --font-family: 'Bitter', serif;
-  --code-font-family: 'Lucida Console';
-  --monospace: 'Lucida Console';
+  --code-font-family: "Courier", sans-serif;
+  --monospace: "Courier", sans-serif;
 }
 
 html,
@@ -447,7 +447,7 @@ table tr td:last-child {
 
 .CodeMirror {
   padding: 1rem;
-  font-family: 'Lucida Console', monospace;
+  font-family: monospace;
 }
 
 .cm-s-inner .CodeMirror-gutters {
@@ -632,10 +632,12 @@ tt {
 }
 
 code {
-  padding: 0.25rem 0.5rem;
-  background-color: var(--boxes);
-  font-size: 0.9rem;
+  padding: 3px 3px;
+  background-color: white;
+  font-size: 0.8rem;
   border-radius: 0.2rem;
+  color: #cf4d45;
+  /*font-weight: 700;*/
 }
 
 .md-fences .CodeMirror div.CodeMirror-cursor,
